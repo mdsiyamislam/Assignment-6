@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.h-title{
+    font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+}
+
 .navber{
     color: white;
     justify-content: space-between;
@@ -53,6 +59,20 @@ line-height: 24px;
 }
 
 
+/* about-the-campaign */
+.about-the-campaign{
+    text-align: center;
+    background: rgba(240, 253, 244, 1);
+    padding: 100px 415px;
+}
+.campaign-parent{
+    gap: 20px;
+    text-align: left;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
 
 @media screen and (max-width: 570px){
     .navber{
@@ -69,5 +89,16 @@ line-height: 24px;
        .b-img{
         max-width: 100%;
        }
+       .about-the-campaign{
+         padding: 12px 20px;
+        flex-direction: column;
+        text-align: center;
+       }
+       .campaign-parent{
+        flex-direction: column;
+       }
+       .campaign-pic{
+        max-width: 100%;
+       } 
    
 }
