@@ -72,6 +72,33 @@ line-height: 24px;
     margin-top: 40px;
 }
 
+/* our-impact */
+.our-impact{
+    background: rgba(207, 240, 220, 1);
+    text-align: center;
+    padding: 100px 130px;
+}
+.impact-card-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.impact-card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+.impact-card:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.our-h{
+    color: rgba(21, 128, 61, 1);
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+}
+
 
 
 @media screen and (max-width: 570px){
@@ -100,5 +127,8 @@ line-height: 24px;
        .campaign-pic{
         max-width: 100%;
        } 
+       .impact-card-parent{
+        grid-template-columns: repeat(1, 1fr);
+       }
    
 }
