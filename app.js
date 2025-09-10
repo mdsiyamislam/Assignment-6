@@ -32,7 +32,7 @@ const loadAllPlants = () => {
       <h1 class="plant-name">${plants.name}</h1>
        <p>"${plants.description}</p> 
        <p  class="plant-number">${plants.price}</p>
-       <div><button class="call-btn">"$Add To Cart"</button></div>`
+       <div><button class="call-btn">Add To Cart</button></div>`
       
     });
   })
