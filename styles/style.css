@@ -141,6 +141,38 @@ footer{
 
 
 
+
+.card-body {
+  text-align: center;
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  justify-content: space-between;
+}
+
+.grid{
+  max-width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 3px solid green;
+
+  max-width: 100%;
+  
+}
+.grid img{
+max-width:155px;
+height:150px;
+} 
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 570px){
     .navber{
         padding: 12px 20px;
@@ -170,5 +202,21 @@ footer{
        .impact-card-parent{
         grid-template-columns: repeat(1, 1fr);
        }
+       .card-body {
+  flex-direction: column-reverse;
+}
+.grid{
+  text-align: center;
+  max-width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  border: 3px solid green;
+  
+}
+#categoriesContainer:hover{
+cursor: pointer;
+background-color: green;
+margin-top: 5px;
+}
+
    
 }

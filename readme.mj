@@ -1,0 +1,29 @@
+
+
+1. Difference between var, let, and const
+
+a) var: Old function-scoped variable, re-declaration is allowed, hoisting is present.
+
+b) let: Block-scoped, re-declaration is not allowed, reassignment is allowed.
+
+c) const: Block-scoped, re-declaration and reassignment are not allowed, but object/array content can be modified.
+
+
+2. Difference between map(), forEach(), and filter()
+
+const numbers = [1, 2, 3, 4]; numbers.forEach(n => console.log(n)); // prints 1 2 3 4 const squared = numbers.map(n => n * n); // [1, 4, 9, 16] const even = numbers.filter(n => n % 2 === 0); // [2, 4] 
+
+3. Arrow Functions in ES6
+
+Arrow functions are a shorter syntax for writing functions and they do not have their own this.
+
+
+4. Destructuring Assignment in ES6
+
+Destructuring allows you to unpack values from arrays or objects into variables.
+
+
+
+5. Template Literals in ES6
+
+Template literals use backticks ` instead of quotes. They allow string interpolation and multiline strings.
